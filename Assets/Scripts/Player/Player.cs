@@ -10,12 +10,16 @@ public class Player : MonoBehaviour
     public ItemData itemData;
     public Action addItem;
 
+    
+
     public int clearCount;
     private void Awake()
     {
         CharacterManager.Instance.Player = this;
         controller = GetComponent<PlayerController>();
         condition = GetComponent<PlayerCondition>();
+
+        
 
         addItem += ApplyItemEffect;
     }

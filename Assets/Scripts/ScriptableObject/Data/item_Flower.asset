@@ -22,4 +22,4 @@ MonoBehaviour:
   maxStackAmount: 3
   Consumables:
   - type: 1
-    value: -60
+    value: -70
